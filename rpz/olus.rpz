@@ -20,7 +20,12 @@ www.pixaby.com           CNAME   safesearch.pixabay.com.
 ; www.youtube-nocookie.com CNAME   restrict.youtube.com.
 
 ; white list
+; netbsd
 *.netbsd.org             CNAME   rpz-passthru.
+
+; zoom
+events.ads.vungle.com    CNAME   rpz-passthru.
+*.events.ads.vungle.com  CNAME   rpz-passthru.
 
 ru  	   CNAME .
 *.ru     CNAME .
