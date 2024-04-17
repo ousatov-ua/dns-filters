@@ -23,6 +23,10 @@ www.pixaby.com           CNAME   safesearch.pixabay.com.
 ; netbsd
 *.netbsd.org             CNAME   rpz-passthru.
 
+; often used in my company
+contactmonkey.com        CNAME   rpz-passthru.
+*.contactmonkey.com      CNAME   rpz-passthru.
+
 ru  	   CNAME .
 *.ru     CNAME .
 
