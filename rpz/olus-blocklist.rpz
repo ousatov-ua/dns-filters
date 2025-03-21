@@ -1,0 +1,26 @@
+$TTL 86400
+@ IN SOA rpz.olus-dns.com. hostmaster.olus-dns.com. 1706637601 86400 3600 604800 86400
+ NS localhost.
+
+; white list
+; netbsd
+*.netbsd.org               CNAME   rpz-passthru.
+www.netbsd.org             CNAME   rpz-passthru.
+
+; often used in my company
+contactmonkey.com        CNAME   rpz-passthru.
+*.contactmonkey.com      CNAME   rpz-passthru.
+
+ru  	   CNAME .
+*.ru     CNAME .
+
+; iranian
+ir 	    CNAME .
+*.ir 	  CNAME .
+
+; north korean
+kp 	    CNAME .
+*.kp 	  CNAME .
+
+; yandex
+yandex.com	CNAME .
